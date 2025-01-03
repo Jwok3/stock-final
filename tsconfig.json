@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",             // 최신 ESM 모듈 사용
+    "moduleResolution": "Node",    // Node.js 스타일의 모듈 해석
+    "target": "ESNext",            // 최신 JavaScript로 컴파일
+    "strict": true,                // 엄격한 타입 검사
+    "esModuleInterop": true,       // CommonJS와 호환
+    "skipLibCheck": true,          // 라이브러리 타입 검사 생략
+    "resolveJsonModule": true      // JSON 모듈 지원
+  }
+}
